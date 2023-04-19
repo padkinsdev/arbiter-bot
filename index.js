@@ -6,8 +6,6 @@ const config = require('./config.json');
 const users = require('./js/users');
 const responses = require('./js/responses');
 
-// invite link: https://discord.com/api/oauth2/authorize?client_id=566418342810877973&permissions=8&scope=bot
-
 const client = new discord.Client({
     intents: [discord.IntentsBitField.Flags.DirectMessages, 
         discord.IntentsBitField.Flags.GuildMembers, 
