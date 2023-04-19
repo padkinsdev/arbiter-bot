@@ -1,0 +1,19 @@
+{
+    "token": "DISCORD BOT TOKEN",
+    "logDir": "/logs/",
+    "spamTimeout": 300000,
+    "autoReply": false,
+    "filterSpam": false,
+    "announceMemberJoinLeave": true,
+    "autoReplies": [
+        {
+            "target": "/SAMPLE REGEX/i",
+            "type": "react",
+            "reply": "SAMPLE RESPONSE"
+        }
+    ],
+    "embedColor": "0xffffff",
+    "memberArrivalChannels": {
+        "GUILD ID": "CHANNEL ID"
+    }
+}
