@@ -1,0 +1,17 @@
+{
+  "name": "spam-bot",
+  "version": "1.0.0",
+  "description": "A bot to respond to and mitigate spam from compromised discord accounts",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Kate A",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.9.0"
+  }
+}
